@@ -7,7 +7,7 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send('Hello World 2!');
+  response.send('Hello World 2!')
 //  var buffer = new Buffer(fs.readFileSync('index.html'));
 //  response.send(buffer.toString('utf-8'));
 })
